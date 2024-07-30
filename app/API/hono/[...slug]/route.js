@@ -16,9 +16,9 @@ app.on('GET', ['/', '/:slug'], async (c) => {
 
   // const { query } = c.req.query();
 
-  // const data = c.req.header('X-message')
+  // const data = c.req.header('Content-Type')
 
-  // const data = getCookie(c, 'token')
+  // const data = getCookie(c, 'token2')
 
   // console.log(data)
 
@@ -27,7 +27,7 @@ app.on('GET', ['/', '/:slug'], async (c) => {
 
   // deleteCookie(c, 'token')
 
-  // setCookie(c, 'token', 'cookies', {
+  // setCookie(c, 'token3', 'cookies', {
   //   path: '/',
   //   secure: true,
   //   domain: 'example.com',
